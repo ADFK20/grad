@@ -15,8 +15,7 @@ export default function FigureOne() {
         <div className="figure">
           <div className="figureText">
             <div class="title">
-              <h2>Ramzy ahmed</h2>
-              <h2>Ramzy ahmed</h2>
+              <h2>Ramzy Abdelaziz</h2>
             </div>
             teach yourself is a graduation prioject for mass communication
             Public relations Students,

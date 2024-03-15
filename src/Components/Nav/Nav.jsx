@@ -26,27 +26,27 @@ export default function Nav() {
             class="f-r-reverse collapse navbar-collapse"
             id="navbarSupportedContent"
           >
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+            <ul class={`navbar-nav ms-auto mb-2 mb-lg-0`}>
+              <li class={`nav-item  ${styles.navlink}`}>
                 <Link class="nav-link active" aria-current="page" to="/">
                   Home
                 </Link>
               </li>
 
-              <li class="nav-item">
-                <Link class="nav-link" to="/figureOne">
+              <li class={`nav-item   ${styles.navlink}`}>
+                <Link class="nav-link active  " to="/figureOne">
                   Figure One
                 </Link>
               </li>
 
-              <li class="nav-item">
-                <Link class="nav-link" to="/figureTwo">
+              <li class={`nav-item  ${styles.navlink}`}>
+                <Link class="nav-link active" to="/figureTwo">
                   Figure Two
                 </Link>
               </li>
 
-              <li class="nav-item">
-                <Link                                                                                                                                                                                  b class="nav-link" to="/figureThree">
+              <li class={`nav-item  ${styles.navlink}`}>
+                <Link b class="nav-link active" to="/figureThree">
                   Figure Three
                 </Link>
               </li>

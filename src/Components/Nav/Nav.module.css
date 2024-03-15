@@ -1,10 +1,22 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+}
 .bg {
-  background-color: #ffffff81 !important;
+  background-color: #ffffff00 !important;
   position: fixed;
   width: 100%;
+  z-index: 5;
 }
+.bg link {
+  color: white !important;
+}
+
 .imgwdth {
   width: 100px;
 }
-.nav-item {
+.navlink {
+  background-color: #3cb93ca9;
+  border-radius: 18px;
+  margin: 8px;
 }
